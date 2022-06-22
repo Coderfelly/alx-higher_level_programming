@@ -8,7 +8,7 @@ def safe_function(fct, *args):
         args: arguments passed to function
 
     Return:
-        Result of the function otherwise, None
+        result of the function otherwise, None
     """
     from sys import stderr
     try:

@@ -11,3 +11,6 @@ def magic_calculation(a, b):
             result = b + a
             break
     return result
+
+from dis import dis
+dis(magic_calculation)
